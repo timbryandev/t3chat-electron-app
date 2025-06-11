@@ -13,6 +13,8 @@ function createWindow() {
 
   // // Load t3.chat
   win.loadURL("https://t3.chat");
+  win.setVisibleOnAllWorkspaces(true, { visibleOnFullScreen: true });
+  win.setAlwaysOnTop(true, "screen-saver", 1);
 
   // Open DevTools (optional, for debugging)
   // win.webContents.openDevTools();
